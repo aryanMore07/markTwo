@@ -5,6 +5,9 @@ let score = 0;
 console.log(chalk.bgCyan("Here Are Some Quiz About Our Great Game Kho-Kho"));
 console.log("--------------------");
 
+var yourName = readLineSync.question("What is Your Name : ");
+console.log(`Welcome ${yourName}`);
+
 function game(question, answer) {
   var ques = readLineSync.question(question);
   console.log("--------------------");
