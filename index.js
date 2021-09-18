@@ -24,6 +24,7 @@ game("Which country first originated Kho Kho game? ", "Maharastra-India");
 game("How many players should be there in kho kho team totally? ", "12");
 game("How many players are substitute in Kho Kho? ", "3");
 game("When was Kho-Kho started? ", "1914");
+game("The People Running Behind Each Person Are Know As? ", "Runner");
 
 console.log(chalk.bgGreen("Your Total Score : ", score));
 console.log("--------------------");
